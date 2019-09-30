@@ -3,3 +3,4 @@
 (require define-assets-from)
 
 (define-assets-from "assets/vehicles")
+

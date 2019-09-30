@@ -2,7 +2,7 @@
 @require[@for-label[kenney-assets
                     racket/base]]
 
-@(require scribble/extract)
+@(require scribble/extract define-assets-from)
 
 
 @title{kenney-assets}
@@ -16,7 +16,10 @@ Assets by Kenney -- @(url "www.kenney.nl")
 
 @section{Characters}
 
-@(include-extracted "../characters.rkt")
+@(require (submod kenney-assets/characters asset-docs)) 
+@(doc-all (submod kenney-assets/characters asset-docs)) 
+
+@;(include-extracted "../characters.rkt")
 
 @section{Vehicles}
 
