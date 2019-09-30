@@ -1,5 +1,7 @@
 #lang at-exp racket
 
-(require define-assets-from)
+(require "./credits.rkt"
+         define-assets-from)
 
-(define-assets-from "assets/foods")
+(define-assets-from "assets/foods"
+                    (for-all-assets credits))

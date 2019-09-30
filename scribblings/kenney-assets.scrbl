@@ -19,32 +19,38 @@ Assets by Kenney -- @(url "www.kenney.nl")
 @(require (submod kenney-assets/characters asset-docs)) 
 @(doc-all (submod kenney-assets/characters asset-docs)) 
 
-@;(include-extracted "../characters.rkt")
-
 @section{Vehicles}
 
-@(include-extracted "../vehicles.rkt")
+@(require (submod kenney-assets/vehicles asset-docs)) 
+@(doc-all (submod kenney-assets/vehicles asset-docs))
 
 @section{Foods}
 
-@(include-extracted "../foods.rkt")
+@(require (submod kenney-assets/foods asset-docs)) 
+@(doc-all (submod kenney-assets/foods asset-docs))
 
 @section{Coins}
 
-@(include-extracted "../coins.rkt")
+@(require (submod kenney-assets/coins asset-docs)) 
+@(doc-all (submod kenney-assets/coins asset-docs))
 
 @section{Misc}
 
-@(include-extracted "../misc.rkt")
+@(require (submod kenney-assets/misc asset-docs)) 
+@(doc-all (submod kenney-assets/misc asset-docs))
 
 @section{Backgrounds}
 
-@(include-extracted "../bgs.rkt")
+@(require (submod kenney-assets/bgs asset-docs)) 
+@(doc-all (submod kenney-assets/bgs asset-docs))
 
 @section{World Objects}
 
-@(include-extracted "../world-objects.rkt")
+@(require (submod kenney-assets/world-objects asset-docs)) 
+@(doc-all (submod kenney-assets/world-objects asset-docs))
 
 @section{Emote Bubbles}
 
-@(include-extracted "../emotes.rkt")
+@(require (submod kenney-assets/emotes asset-docs)) 
+@(doc-all (submod kenney-assets/emotes asset-docs))
+
